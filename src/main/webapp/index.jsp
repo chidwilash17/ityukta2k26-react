@@ -844,7 +844,7 @@
                         <div class="event-footer">
                             <span class="event-price">Free Entry</span>
                             <button class="event-register-btn"
-                                onclick="event.preventDefault(); event.stopPropagation(); window.location.href='event-runtime-rush.jsp#register';">
+<button class="event-register-btn" id="event-register-btn">
                                 Register
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
@@ -867,7 +867,7 @@
                         <div class="event-footer">
                             <span class="event-price">Free Entry</span>
                             <button class="event-register-btn"
-                                onclick="event.preventDefault(); event.stopPropagation(); window.location.href='event-dive-n-design.jsp#register';">
+<button class="event-register-btn" id="event-register-btn">
                                 Register
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
@@ -891,7 +891,7 @@
                         <div class="event-footer">
                             <span class="event-price">Free Entry</span>
                             <button class="event-register-btn"
-                                onclick="event.preventDefault(); event.stopPropagation(); window.location.href='event-treasure-hunt.jsp#register';">
+<button class="event-register-btn" id="treasure-hunt-register-btn">
                                 Register
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
@@ -913,7 +913,7 @@
                         <div class="event-footer">
                             <span class="event-price">Free Entry</span>
                             <button class="event-register-btn"
-                                onclick="event.preventDefault(); event.stopPropagation(); window.location.href='event-meme-matrice.jsp#register';">
+<button class="event-register-btn" id="meme-matrice-register-btn">
                                 Register
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
@@ -936,7 +936,7 @@
                         <div class="event-footer">
                             <span class="event-price">Free Entry</span>
                             <button class="event-register-btn"
-                                onclick="event.preventDefault(); event.stopPropagation(); window.location.href='event-movie-mania.jsp#register';">
+<button class="event-register-btn" id="movie-mania-register-btn">
                                 Register
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
@@ -959,7 +959,7 @@
                         <div class="event-footer">
                             <span class="event-price">Free Entry</span>
                             <button class="event-register-btn"
-                                onclick="event.preventDefault(); event.stopPropagation(); window.location.href='event-dumb-smash.jsp#register';">
+<button class="event-register-btn" id="dumb-smash-register-btn">
                                 Register
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
@@ -982,7 +982,7 @@
                         <div class="event-footer">
                             <span class="event-price">Free Entry</span>
                             <button class="event-register-btn"
-                                onclick="event.preventDefault(); event.stopPropagation(); window.location.href='event-ludo.jsp#register';">
+<button class="event-register-btn" id="ludo-register-btn">
                                 Register
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
