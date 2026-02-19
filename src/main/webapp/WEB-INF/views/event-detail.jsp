@@ -535,7 +535,7 @@
                                         <div class="sidebar-price-note">General registration required</div>
                                     </div>
 
-<a href="register?event=<%= org.apache.commons.text.StringEscapeUtils.escapeHtml4(request.getParameter("id")) %>" class="btn btn-primary" style="width: 100%;">
+<a href="register?event=<%= org.apache.commons.text.StringEscapeUtils.escapeHtml4(request.getParameter("id")) %>" class="btn btn-primary btn-full-width">
                                         style="width: 100%;">
                                         Register for Event
                                         <span class="btn-icon">→</span>
