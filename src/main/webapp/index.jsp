@@ -365,7 +365,7 @@
                     <div class="patron-card reveal">
                         <img src="images/vice_chancelor.jpeg" alt="Prof. V. V. Subba Rao" class="patron-image"
                             loading="lazy"
-                            onerror="this.style.display='none'; this.closest('.patron-card').classList.add('no-image');">
+<img src="images/vice_chancelor.jpeg" alt="Prof. V. V. Subba Rao" class="patron-image" loading="lazy" id="patron-image-1">
                         <div class="patron-info">
                             <h3 class="patron-name">Prof. V. V. Subba Rao</h3>
                             <p class="patron-title">Hon'ble Vice Chancellor</p>
@@ -379,7 +379,7 @@
                     <!-- Guest 3 -->
                     <div class="patron-card reveal">
                         <img src="images/jaya_suma.png" alt="Dr. G. Jayasuma" class="patron-image" loading="lazy"
-                            onerror="this.style.display='none'; this.closest('.patron-card').classList.add('no-image');">
+<img src="images/jaya_suma.png" alt="Dr. G. Jayasuma" class="patron-image" loading="lazy" id="patron-image-3">
                         <div class="patron-info">
                             <h3 class="patron-name">Dr. G. Jayasuma</h3>
                             <p class="patron-title">Hon'ble Registrar</p>
@@ -405,7 +405,7 @@
                     <div class="patron-card reveal">
                         <img src="images/principal.2ea2f33ffe16c6117209.jpeg" alt="Prof. R. Rajeswara Rao"
                             class="patron-image" loading="lazy"
-                            onerror="this.style.display='none'; this.closest('.patron-card').classList.add('no-image');">
+<img src="images/principal.2ea2f33ffe16c6117209.jpeg" alt="Prof. R. Rajeswara Rao" class="patron-image" loading="lazy" id="patron-image-1">
                         <div class="patron-info">
                             <h3 class="patron-name">Prof. R. Rajeswara Rao</h3>
                             <p class="patron-title">Principal</p>
@@ -415,9 +415,9 @@
 
                     <!-- Patron 2 -->
                     <div class="patron-card reveal">
-                        <img src="images/vice.a2a78ca5ed0c8750876b.jpg" alt="Dr. G. J. Naga Raju" class="patron-image"
+<img src="images/vice.a2a78ca5ed0c8750876b.jpg" alt="Dr. G. J. Naga Raju" class="patron-image" loading="lazy" id="patron-image-2">
                             loading="lazy"
-                            onerror="this.style.display='none'; this.closest('.patron-card').classList.add('no-image');">
+
                         <div class="patron-info">
                             <h3 class="patron-name">Dr. G. J. Naga Raju</h3>
                             <p class="patron-title">Vice Principal</p>
@@ -441,7 +441,7 @@
                 <div class="chairperson-card reveal">
                     <div class="chairperson-image-wrap">
                         <img src="images/bindu_madhuri.png" alt="Dr.Ch.Bindu Madhuri" class="chairperson-image"
-                            loading="lazy" onerror="this.style.display='none';">
+<img src="images/bindu_madhuri.png" alt="Dr.Ch.Bindu Madhuri" class="chairperson-image" loading="lazy" id="chairperson-image">
                     </div>
                     <div class="chairperson-info">
                         <h3 class="chairperson-name">Dr.Ch.Bindu Madhuri</h3>
@@ -692,13 +692,13 @@
                                 3 Hours
                             </span>
                             <button class="btn btn-primary workshop-register-btn"
-                                onclick="event.preventDefault(); event.stopPropagation(); window.location.href='workshop-vibe-coding.jsp#register';">
+<button class="btn btn-primary workshop-register-btn" id="workshop-register-btn">
                                 Register Now
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
                                     <path d="M5 12h14M12 5l7 7-7 7" />
                                 </svg>
-                            </button>
+</button>
                         </div>
                     </a>
 
@@ -726,7 +726,7 @@
                                 3 Hours
                             </span>
                             <button class="btn btn-primary workshop-register-btn"
-                                onclick="event.preventDefault(); event.stopPropagation(); window.location.href='workshop-agentic-ai.jsp#register';">
+<button class="btn btn-primary workshop-register-btn" id="workshop-register-btn">
                                 Register Now
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
@@ -775,7 +775,7 @@
                         <div class="event-footer">
                             <span class="event-price">Free Entry</span>
                             <button class="event-register-btn"
-                                onclick="event.preventDefault(); event.stopPropagation(); window.location.href='event-mind-matrix.jsp#register';">
+<button class="event-register-btn" id="event-register-btn">
                                 Register
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
@@ -798,7 +798,7 @@
                         <div class="event-footer">
                             <span class="event-price">Free Entry</span>
                             <button class="event-register-btn"
-                                onclick="event.preventDefault(); event.stopPropagation(); window.location.href='event-twin-lock.jsp#register';">
+<button class="event-register-btn" id="event-register-btn">
                                 Register
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
@@ -821,7 +821,7 @@
                         <div class="event-footer">
                             <span class="event-price">Free Entry</span>
                             <button class="event-register-btn"
-                                onclick="event.preventDefault(); event.stopPropagation(); window.location.href='event-shadow-pages.jsp#register';">
+<button class="event-register-btn" id="event-register-btn">
                                 Register
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5">
