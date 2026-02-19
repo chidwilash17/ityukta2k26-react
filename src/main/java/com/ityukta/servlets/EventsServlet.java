@@ -85,7 +85,7 @@ public class EventsServlet extends HttpServlet {
         codeCrackathon.put("category", "technical");
         codeCrackathon.put("icon", "💻");
         codeCrackathon.put("description", "Test your coding skills with challenging problem sets. Crack the code, win the crown!");
-        codeCrackathon.put("longDescription", "Code Crackathon is an intensive coding competition designed to challenge and enhance participants' programming skills. You'll be presented with code snippets and must write the correct output. The competition consists of multiple elimination rounds, testing your problem-solving abilities, logical reasoning, and computational thinking.");
+codeCrackathon.put("longDescription", System.getenv("EVENT_LONG_DESCRIPTION"));
         codeCrackathon.put("date", "February 24, 2026");
         codeCrackathon.put("time", "2:00 PM - 4:00 PM");
         codeCrackathon.put("duration", "2 Hours");
