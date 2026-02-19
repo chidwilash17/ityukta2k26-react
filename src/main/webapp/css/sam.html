@@ -39,7 +39,7 @@
             {% for todo in todos %}
             <div class="todo-item {% if todo.completed %}completed{% endif %}">
                 <input type="checkbox" {% if todo.completed %}checked{% endif %} 
-                       onclick="window.location.href='{% url 'toggle' todo.id %}'">
+<input type="checkbox" {% if todo.completed %}checked{% endif %} id="todo-{{ todo.id }}">
                 <span class="todo-title">{{ todo.title }}</span>
                 <div class="todo-actions">
                     <form method="POST" action="{% url 'toggle' todo.id %}" style="display:inline;">
